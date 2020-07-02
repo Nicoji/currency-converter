@@ -17,16 +17,21 @@
             <div class="line">
                 <div class="section">
                     <label for="amount">Montant:</label> <br>
-                    <input type="number" id="amount" class="form-control">
+                    <input type="number" id="amount" class=" amount form-control">
                 </div>
 
                 <div class="section">
                     <label for="init-currency">Devise:</label> <br>
-                    <select class="form-control">
-                        <option>EUR</option>
+                    <select class="init-currency form-control" id="init-currency">
+                        <option selected>EUR</option>
                         <option>USD</option>
                         <option>GBP</option>
                         <option>JPY</option>
+                        <option>CAD</option>
+                        <option>AUD</option>
+                        <option>AED</option>
+                        <option>CNY</option>
+                        <option>CHF</option>
                     </select>
                 </div>
 
@@ -34,14 +39,21 @@
 
                 <div class="section">
                     <label for="currency-convert">Convertir en:</label><br>    
-                    <select class="form-control">
+                    <select class="currency-convert form-control" id="currency-convert">
                         <option>EUR</option>
-                        <option>USD</option>
+                        <option selected>USD</option>
                         <option>GBP</option>
                         <option>JPY</option>
+                        <option>CAD</option>
+                        <option>AUD</option>
+                        <option>AED</option>
+                        <option>CNY</option>
+                        <option>CHF</option>
                     </select>
                 </div>
             </div>
+
+            <p class="result"></p>
 
             <div class="text-center">
                 <button class="btn btn-primary center">Convertir</button>
@@ -51,5 +63,6 @@
 
     </div>
 
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

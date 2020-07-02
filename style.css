@@ -34,3 +34,12 @@ img {
 .text-center {
     margin-top: 20px;
 }
+
+.result {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 20px;
+}
