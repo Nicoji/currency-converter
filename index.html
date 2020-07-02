@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Convertisseur de devise</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <form class="offset-3 col-md-6">
+
+            <h1>Convertisseur de devises</h1>
+
+            <div class="line">
+                <div class="section">
+                    <label for="amount">Montant:</label> <br>
+                    <input type="number" id="amount" class="form-control">
+                </div>
+
+                <div class="section">
+                    <label for="init-currency">Devise:</label> <br>
+                    <select class="form-control">
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>GBP</option>
+                        <option>JPY</option>
+                    </select>
+                </div>
+
+                <img src="arrows.png"/>
+
+                <div class="section">
+                    <label for="currency-convert">Convertir en:</label><br>    
+                    <select class="form-control">
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>GBP</option>
+                        <option>JPY</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-primary center">Convertir</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+form {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(69, 69, 204);
+    border-radius: 20px;
+    border: 5px solid rgb(50, 124, 236);
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 150px;
+}
+
+label {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.text-center {
+    margin-top: 20px;
+}
