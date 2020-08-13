@@ -1,5 +1,9 @@
+body {
+    background-color: #93d0f3;
+}
+
 form {
-    margin-top: 50px;
+    margin-top: 75px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: rgb(69, 69, 204);
@@ -10,7 +14,7 @@ form {
 h1 {
     text-align: center;
     color: #FFF;
-    margin-bottom: 150px;
+    margin-bottom: 40px;
 }
 
 label {
@@ -23,6 +27,14 @@ img {
     width: 60px;
     height: auto;
     margin-top: 25px;
+}
+
+.btn {
+    margin-top: 20px;
+    font-size: 25px;
+    width: 33%;
+    min-width: 150px;
+    max-width: 300px;
 }
 
 .line {
@@ -42,4 +54,8 @@ img {
     color: #FFF;
     font-weight: 800;
     margin-top: 20px;
+}
+
+.col-md-12 {
+    margin-bottom: 20px;
 }
